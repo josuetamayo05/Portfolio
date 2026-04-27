@@ -1,36 +1,16 @@
-# 🚀 JA CubanCode - Desarrollo Web Profesional
+# React + Vite
 
-![JA CubanCode Banner](https://img.shields.io/badge/JA-CubanCode-blue?style=for-the-badge&logo=code&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-![Made in Cuba](https://img.shields.io/badge/Made%20in-Cuba%20🇨🇺-red?style=for-the-badge)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 📋 Descripción
+Currently, two official plugins are available:
 
-Landing page profesional para **JA CubanCode**, servicios de desarrollo de tiendas online para negocios en Cuba.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-### 🌐 [Ver Demo en Vivo](https://josuetamayo05.github.io/ja-cubancode/)
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## ✨ Servicios que Ofrezco
+## Expanding the ESLint configuration
 
-| Servicio | Descripción |
-|----------|-------------|
-| 🛍️ **Tiendas Online** | Catálogos profesionales con pedidos por WhatsApp |
-| 📱 **Diseño Responsivo** | Funciona en móvil y computadora |
-| ⚙️ **Panel de Admin** | El cliente controla sus productos |
-| 🚀 **Hosting Incluido** | Sin costos adicionales |
-
----
-
-## 💰 Planes y Precios
-
-| Plan | Productos | Características | Precio |
-|------|-----------|-----------------|--------|
-| **Básico** | Hasta 20 | Catálogo + WhatsApp | $50 USD |
-| **Profesional** | Hasta 50 | + Panel Admin + Carrito | $100 USD |
-| **Premium** | Ilimitados | + Diseño personalizado | $200 USD |
-
----
-
-## 🛠️ Tecnologías Utilizadas
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

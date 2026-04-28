@@ -45,7 +45,7 @@ export const siteData: SiteData = {
         "Catálogo rápido con productos, carrito y pedido directo por WhatsApp. Optimizado para móvil.",
       tags: ["Web", "Catálogo", "WhatsApp"],
       tech: ["React", "Tailwind"],
-      image: "/portfolio/placeholder-2.png",
+      image: "/portfolio/placeholder-3.png",
       liveUrl: "https://futbeteo-store.vercel.app/",
     }
   ],

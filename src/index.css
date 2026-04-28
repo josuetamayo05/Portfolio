@@ -8,8 +8,12 @@
   .glass-panel {
     @apply bg-dark-surface/60 backdrop-blur-md border border-white/5;
   }
+  .glass-panel-solid {
+    @apply bg-dark-surface/95 backdrop-blur-xl border border-white/10;
+  }
 }
 
 body {
   @apply bg-dark-bg text-slate-300 font-sans antialiased selection:bg-brand-cyan/30 selection:text-brand-cyan;
 }
+

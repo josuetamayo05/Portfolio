@@ -61,7 +61,7 @@ export default function Navbar() {
 
         {/* Mobile toggle */}
         <button
-          className="md:hidden inline-flex items-center justify-center w-11 h-11 rounded-xl glass-panel"
+          className="md:hidden inline-flex items-center justify-center w-11 h-11 rounded-xl bg-dark-surface border border-white/15"
           aria-label={open ? "Cerrar menú" : "Abrir menú"}
           onClick={() => setOpen((v) => !v)}
         >
@@ -74,17 +74,17 @@ export default function Navbar() {
         <div className="md:hidden fixed inset-0 z-50">
           {/* Backdrop */}
           <button
-            className="absolute inset-0 bg-black/75"
+            className="absolute inset-0 bg-black/90"
             aria-label="Cerrar menú"
             onClick={close}
           />
 
           {/* Panel */}
-          <div className="absolute top-0 right-0 h-full w-[85%] max-w-sm glass-panel-solid border-l border-white/10 p-6 shadow-2xl">
+          <div className="absolute top-0 right-0 h-full w-[85%] max-w-sm bg-dark-surface border-l border-white/20 p-6 shadow-2xl">
             <div className="flex items-center justify-between mb-8">
               <div className="text-lg font-bold text-white">Menú</div>
               <button
-                className="inline-flex items-center justify-center w-11 h-11 rounded-xl glass-panel"
+                className="inline-flex items-center justify-center w-11 h-11 rounded-xl bg-dark-bg border border-white/15"
                 aria-label="Cerrar menú"
                 onClick={close}
               >
@@ -98,7 +98,7 @@ export default function Navbar() {
                   key={item.to}
                   to={item.to}
                   onClick={close}
-                  className="px-4 py-3 rounded-xl bg-dark-bg/40 border border-white/10 text-slate-200 hover:border-brand-cyan/40 transition-all"
+                  className="px-4 py-3 rounded-xl bg-dark-bg border border-white/15 text-slate-200 hover:bg-dark-border/30 hover:border-brand-cyan/40 transition-all"
                 >
                   {item.label}
                 </Link>

@@ -36,4 +36,16 @@ export type SiteData = {
   services: Service[];
   process: { step: string; title: string; desc: string }[];
   faq: FAQItem[];
+  projects: Project[];
+};
+
+export type Project = {
+  id: string;
+  title: string;
+  summary: string;
+  tags: string[];        // ej: ["Web", "E‑commerce", "Restaurantes"]
+  tech?: string[];       // ej: ["React", "Tailwind", "FastAPI"]
+  image?: string;        // ruta en /public, ej: "/portfolio/tienda1.png"
+  liveUrl?: string;      // link demo
+  repoUrl?: string;      // link github (opcional)
 };

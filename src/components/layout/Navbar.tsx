@@ -7,6 +7,7 @@ const navItems = [
   { label: "Servicios", to: "/#servicios" },
   { label: "Proceso", to: "/#proceso" },
   { label: "Contacto", to: "/#contacto" },
+  { label: "Portfolio", to: "/#portfolio" },
 ];
 
 export default function Navbar() {

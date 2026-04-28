@@ -17,7 +17,7 @@ export const siteData: SiteData = {
     facebook: "https://www.facebook.com/share/1GbdQ6hftM/",
     github: "https://github.com/josuetamayo05",
   },
-
+  
   hero: {
     title: "Impulsa tu negocio con tecnología de alto nivel.",
     subtitle:
@@ -26,6 +26,30 @@ export const siteData: SiteData = {
     ctaSecondary: "Ver servicios",
   },
 
+  projects: [
+    {
+      id: "tienda-catalogo",
+      title: "Tienda/Catálogo para floristería",
+      summary:
+        "Catálogo rápido con productos, carrito y pedido directo por WhatsApp. Optimizado para móvil.",
+      tags: ["Web", "Catálogo", "WhatsApp"],
+      tech: ["React", "Tailwind"],
+      image: "/portfolio/placeholder-1.png",
+      liveUrl: "https://bloompiper.vercel.app/",
+      repoUrl: "https://github.com/josuetamayo05/BloomPiper",
+    },
+    {
+      id: "tienda-deportiva",
+      title: "Tienda/Catálogo deportiva",
+      summary:
+        "Catálogo rápido con productos, carrito y pedido directo por WhatsApp. Optimizado para móvil.",
+      tags: ["Web", "Catálogo", "WhatsApp"],
+      tech: ["React", "Tailwind"],
+      image: "/portfolio/placeholder-2.png",
+      liveUrl: "https://futbeteo-store.vercel.app/",
+    }
+  ],
+  
   services: [
     {
       slug: "web",

@@ -28,17 +28,6 @@ export const siteData: SiteData = {
 
   projects: [
     {
-      id: "tienda-catalogo",
-      title: "Tienda/Catálogo para floristería",
-      summary:
-        "Catálogo rápido con productos, carrito y pedido directo por WhatsApp. Optimizado para móvil.",
-      tags: ["Web", "Catálogo", "WhatsApp"],
-      tech: ["React", "Tailwind"],
-      image: "/portfolio/placeholder-1.png",
-      liveUrl: "https://bloompiper.vercel.app/",
-      repoUrl: "https://github.com/josuetamayo05/BloomPiper",
-    },
-    {
       id: "tienda-deportiva",
       title: "Tienda/Catálogo deportiva",
       summary:

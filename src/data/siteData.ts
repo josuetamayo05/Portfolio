@@ -35,7 +35,7 @@ export const siteData: SiteData = {
       tags: ["Web", "Catálogo", "WhatsApp"],
       tech: ["React", "Tailwind"],
       image: "/portfolio/placeholder-3.png",
-      liveUrl: "https://futbeteo-store.vercel.app/",
+      liveUrl: "https://fut-store.vercel.app/",
     },
     {
       id: "tienda-flores",
@@ -45,7 +45,7 @@ export const siteData: SiteData = {
       tags: ["Web", "Catálogo", "WhatsApp"],
       tech: ["React", "Tailwind"],
       image: "/portfolio/placeholder-1.png",
-      liveUrl: "https://futbeteo-store.vercel.app/",
+      liveUrl: "https://pflowershop.vercel.app/",
     }
   ],
   

@@ -19,7 +19,7 @@ export const siteData: SiteData = {
   },
   
   hero: {
-    title: "Impulsa tu negocio con tecnología de alto nivel.",
+    title: "Impulsa tu negocio con",
     subtitle:
       "Desarrollo soluciones web, móviles y backend para marcas que quieren vender más, automatizar tareas y verse profesionales desde el primer día.",
     ctaPrimary: "Cotizar mi proyecto",
@@ -35,6 +35,16 @@ export const siteData: SiteData = {
       tags: ["Web", "Catálogo", "WhatsApp"],
       tech: ["React", "Tailwind"],
       image: "/portfolio/placeholder-3.png",
+      liveUrl: "https://futbeteo-store.vercel.app/",
+    },
+    {
+      id: "tienda-flores",
+      title: "Tienda/Catálogo Floristería",
+      summary:
+        "Catálogo rápido con productos, carrito y pedido directo por WhatsApp. Optimizado para móvil.",
+      tags: ["Web", "Catálogo", "WhatsApp"],
+      tech: ["React", "Tailwind"],
+      image: "/portfolio/placeholder-1.png",
       liveUrl: "https://futbeteo-store.vercel.app/",
     }
   ],

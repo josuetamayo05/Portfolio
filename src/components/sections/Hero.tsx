@@ -14,10 +14,10 @@ export default function Hero() {
           variants={fadeUp}
           className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight"
         >
-          {siteData.hero.title.split(".")[0]}.
+          {siteData.hero.title.split(".")[0]}
           <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-cyan to-brand-violet">
-            {siteData.hero.title.split(".").slice(1).join(".").trim() || "Tecnología de alto nivel."}
+            {siteData.hero.title.split(".").slice(1).join(",").trim() || "Tecnología de alto nivel."}
           </span>
         </motion.h1>
 
